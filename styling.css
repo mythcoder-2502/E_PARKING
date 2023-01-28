@@ -1,4 +1,4 @@
-.Login-box{
+.SIGNUP-box{
     width: 80%;
     max-width: 370px;
     border: 1px solid rgba(116, 116, 116, 0.76);
@@ -10,7 +10,7 @@
     padding: 10px 0;
 }
 
-.Login-box img {
+.SIGNUP-box img {
     width: 30%;
     height: auto;
     margin: 20px auto;
@@ -18,7 +18,7 @@
     border-radius: 50%;
 }
 
-.Login-box input{
+.SIGNUP-box input{
     width: 85%;
     height: 40px;
     margin: 12px auto;
@@ -29,7 +29,7 @@
     font-size: 17px;
     padding-left: 15px;
 }
-.Login-box input:focus{
+.SIGNUP-box input:focus{
     outline: none;
 }
 
