@@ -87,19 +87,17 @@
 
 
 
-                <div style="padding: 20px;" id="form-olvidado">
-<form action="/MCC/" method="post"><input name="__RequestVerificationToken" type="hidden" value="jOg2endNs1q_Q9jAbKoiapBQMNQZBYpSErm5ZqadZs8FV067HKghl7XV6IUY_Mi9sqepnOGW29XTvHNFn1VwqD8ecG9bDn61-Kdggkf1zvM1" />                        <fieldset>
-                            <div class="form-group">
-                                <input autofocus="" class="form-control" id="login_loginName" name="login.loginName" placeholder="email" required="required" type="text" value="" />
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" id="login_loginPass" name="login.loginPass" placeholder="password" required="required" type="password" />
-                            </div>
-                            <div class="form-group">
-                                <div class="col-sm-12">
-                                    <label>
-                                        <small> By logging in You agree to the <span id="agreeText"> <a id="termsConditions1" href="" class="termsConditions">Terms And Conditions </a></span> of the Mayo E-Parking service.</small>
-                                    </label>
+                <div class="Login-box">
+
+                <h2 style="text-align: center;">Login</h2>
+                    <input type="text" placeholder="Email" id="email" onclick="resetBtn()">
+                    <input type="password" placeholder="Password" id="pass" onclick="resetBtn()" minlength="8">
+                    
+                    <input type="checkbox" name="check1" id="check" onclick="resetBtn()">
+                    <label for="check" class="label">I agree to the Terms and conditions.</label>
+                
+                    <input type="submit" id="submit-btn" value="Login" onmouseover="mouseOver()">
+                </form>
                                 </div>
                             </div>
                             <div class="form-group">
