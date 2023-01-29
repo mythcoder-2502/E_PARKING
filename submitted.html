@@ -1,21 +1,251 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Submitted</title>
+    <title>E-Parking</title>
+    <meta name="description" content="E-Parking">
+    <link href="/MCC/favicon.ico" rel="shortcut icon"> 
+    <link rel="stylesheet" href="styling.css">
+    
+    <!--Cookie Bot Script needs to be the first script -->
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="7a40cee9-9950-4105-aaf8-c0bf13314aaa"
+            data-blockingmode="auto" type="text/javascript">
+    </script>
 
-    <link rel="stylesheet" href="styling.css"><script src="https://kit.fontawesome.com/aa21045f58.js" crossorigin="anonymous"></script>
+    
 
+
+
+    <!-- Google Analytics -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-4607453-11');
+    </script>
+
+
+    <style>
+        body { /*background-image: url("https://i.postimg.cc/DZrdKN3R/Eparking-images.jpg");*/
+            background-image: url("https://i.postimg.cc/DZrdKN3R/Eparking-images.jpg");
+            background-color: rgb(227, 148, 148);
+        }
+
+        default .navbar-toggle .icon-bar {
+            background-color: rgb(250, 130, 130);
+        }
+
+        default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+            background-color: #fff;
+        }
+
+        .icon-bar {
+            background-color: rgb(255, 255, 255);
+        }
+
+        #Footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 60px; /* Height of the footer */
+        }
+    </style>
 </head>
 <body>
-    
-    <div class="submit-div">
-        <span><i class="fa-solid fa-truck fa-bounce"></i>  <h1>Submitted!</h1></span>
-        <h2>Made By Prathmesh For Eparking</h2></span>
-        <h3>Site is under Maintance, Sorry for inconvenience</h3></span>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+        <div class="container">
+            <div class="navbar-header" style="height: 5.00em;">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <img src="https://i.postimg.cc/rwmM8z5j/Eparking-logo.png"  style="height: 70px;px"/>
+            </div>
+
+            <div class="navbar-collapse navbar-right collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="ParkNow/Park">Pay Once Off</a></li>
+                    
+
+
+    <li class=""><a href="register.html">Register</a></li>
+    <li class="active"><a href="//">Login</a></li>
+
+                </ul>
+            </div>
+            
+        </div>
+        <div class="span12 add-border hidden-desktop hidden-tablet">
+        </div>
+        </nav>
+
+        <div class="container body-content" style="padding-bottom: 50px; padding-top: 80px;">
+            
+
+<style>
+    .OnceOffPark {
+        font-weight: bold;
+    }
+</style>
+
+
+<div class="row col-lg-offset-3" style="margin-top:50px">
+
+    <div class="col-lg-6">
+
+        <div class="panel panel-TCI">
+            <div class="panel-heading"> Login</div>
+            <div class="panel-body">
+
+
+
+                <div style="padding: 20px;" id="form-olvidado">
+                            <div class="form-group">
+                                <input autofocus="" class="form-control" id="login_loginName" name="login.loginName" placeholder="email" required="required" type="text" value="" />
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="login_loginPass" name="login.loginPass" placeholder="password" required="required" type="password" />
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <label>
+                                        <small> By logging in You agree to the <span id="agreeText"> <a id="termsConditions1" href="" class="termsConditions">Terms And Conditions </a></span> of the Pratham E-Parking service.</small>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    
+                                    <br />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-black btn-block btnLogin">Login</button>
+                                <br />
+                                <p class="text-center">
+                                    <a href="#" id="olvidado"><small>Forgot password?</small></a>
+                                </p>
+                                <p class="small text-center">
+                                    <a href="/Home/SignUp">Don&#39;t have an account? Register now!</a>
+                                </p>
+
+                                <br />
+                                <p class="small text-center">
+                                    <a class="OnceOffPark btn btn-black btn-block" href="/ParkNow/Park">Pay Once Off (No account required)</a>
+                                </p>
+
+                                <div class="row">
+                                    <br />
+                                    <p class="small text-center"><em>Download our app from the following links</em></p>
+                                    <div style="width: 100%; display: table;">
+                                        <div style="display: table-row;">
+                                            <div style="width: 50%; display: table-cell;"><a href="" target="_blank"> <img src="/MCC/Content/images/android.png" alt="Android App" border="0" /></a> </div>
+                                            <div style="display: table-cell;padding-left:2px;"><a href="" target="_blank"><img src="/MCC/Content/images/apple.png" alt="iOS App" border="0" /></a> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+</form>                </div>
+
+
+                <div style="display: none; height:290px;" id="form-olvidado">
+                    <h4>Forgot your password? </h4>
+<form action="/MCC/Account/ResetPassword" method="post"><input name="__RequestVerificationToken" type="hidden" value="q4qheFY5oRG4r9t_fF93d82UmUou_ay9qGW0mf4Wm3lsznhqyluDX6o7W01pmHjATraDo6VZzgcvJYpuEcIAMuOvYrdr51N1FlrjdRvwHhU1" />                        <fieldset>
+                            <span class="help-block">
+                                Please enter your account email address. we will send you an email with instructions to choose a new password.
+                            </span>
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"> @ </span>
+                                <input class="form-control input-lg" id="email" name="email" placeholder="email address" required="required" type="text" value="" />
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-black btn-block">Send</button>
+                                <p class="help-block">
+                                    <a href="" id="acceso"><small class="pull-right">Back to login</small></a>
+                                </p>
+                            </div>
+                        </fieldset>
+</form>                </div>
+
+            </div>
+        </div>
     </div>
+</div>
+
+
+
+<div class="modal fade terms-modal" tabindex="-1" role="dialog" aria-labelledby="myForgetModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">×</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">Terms And Conditions</h4>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+        </div>
+
+        
+        <div class="navbar navbar-fixed-bottom footer hidden-xs" id="Footer">
+            <div class="container">
+                <p class="navbar-text pull-left">
+                    &copy; 2023 - E-Parking
+                </p>
+            </div>
+        </div>
+
+        
+
+    <!--Google recaptcha script-->
+
+    <script type="text/javascript">
+
+        $(document).ready(function ()
+        {
+            $('#olvidado').click(function (e)
+            {
+                e.preventDefault();
+                $('div#form-olvidado').toggle('500');
+            });
+
+            $('#acceso').click(function (e)
+            {
+                e.preventDefault();
+                $('div#form-olvidado').toggle('500');
+            });
+
+            $('.termsConditions').on('click', function (e)
+            {
+                e.preventDefault();
+
+                $.getJSON("/MCC/Home/GetSignupTermsAndConditions", {}, function (data)
+                {
+                    $('.modal-body').css('height', $(window).height() * 0.2);
+                    $('.modal .modal-body').css('overflow-y', 'auto');
+                    $('.modal-body').html(data);
+                    $('.terms-modal').modal('show');
+                });
+            });
+        });
+
+    </script>
 
 </body>
 </html>
