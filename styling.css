@@ -21,6 +21,7 @@
 .Login-box input{
     width: 85%;
     height: 40px;
+    background-color: brown;
     margin: 12px auto;
     display: block;
     border: 1px solid rgba(116, 116, 116, 0.76);
